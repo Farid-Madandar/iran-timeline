@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Ø§ÛŒØ±Ø§Ù† Ø¯Ø± Ú¯Ø°Ø± Ø²Ù…Ø§Ù† â€” Û²Û¸Û°Û° Ø³Ø§Ù„ Ù…Ø±Ø² Ø±ÙˆÛŒ ÛŒÚ© Ú©Ø±Ù‡</title>
+    <meta name="description" content="Ø®Ø· Ø²Ù…Ø§Ù† Ø±Ø§ Ø¬Ø§Ø¨Ù‡â€ŒØ¬Ø§ Ú©Ù†ÛŒØ¯ Ùˆ Ø¨Ø¨ÛŒÙ†ÛŒØ¯ Ù†Ù‚Ø´Ù‡Ù” Ø§ÛŒØ±Ø§Ù† Ú†Ú¯ÙˆÙ†Ù‡ ØªØºÛŒÛŒØ± Ú©Ø±Ø¯: Ø§Ø² Ù†Ø®Ø³ØªÛŒÙ† Ù†Ø§Ù… Ù¾Ø§Ø±Ø³â€ŒÙ‡Ø§ Ø¯Ø± Û¸Û´Û´ Ù¾ÛŒØ´ Ø§Ø² Ù…ÛŒÙ„Ø§Ø¯ØŒ Ø§Ø² Ù‡Ø®Ø§Ù…Ù†Ø´ÛŒØ§Ù† Ùˆ Ø³Ø§Ø³Ø§Ù†ÛŒØ§Ù† Ùˆ ØµÙÙˆÛŒØ§Ù† ØªØ§ Ø§ÛŒØ±Ø§Ù† Ø§Ù…Ø±ÙˆØ²." />
+    <meta name="theme-color" content="#fdfdfd" />
+    <link rel="alternate" hreflang="en" href="https://github.com/Farid-Madandar/iran-map-timelaps/?lang=en" />
+    <link rel="canonical" href="https://github.com/Farid-Madandar/iran-map-timelaps/" />
+    <!-- start downloading the map data straight away, in parallel with the script -->
+    <link rel="preload" href="/node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/map.json" as="fetch" crossorigin="anonymous" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:url" content="https://github.com/Farid-Madandar/iran-map-timelaps/" />
+    <meta property="og:title" content="Ø§ÛŒØ±Ø§Ù† Ø¯Ø± Ú¯Ø°Ø± Ø²Ù…Ø§Ù†" />
+    <meta property="og:description" content="Û²Û¸Û°Û° Ø³Ø§Ù„ Ù…Ø±Ø² Ø±ÙˆÛŒ ÛŒÚ© Ú©Ø±Ù‡. Ø®Ø· Ø²Ù…Ø§Ù† Ø±Ø§ Ø§Ø² Û¸Û´Û´ Ù¾ÛŒØ´ Ø§Ø² Ù…ÛŒÙ„Ø§Ø¯ ØªØ§ Ø§Ù…Ø±ÙˆØ² ÙˆØ±Ù‚ Ø¨Ø²Ù†ÛŒØ¯." />
+    <meta property="og:image" content="https://github.com/Farid-Madandar/iran-map-timelaps/og-image.jpg?v=2" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ú©Ø±Ù‡â€ŒØ§ÛŒ Ø¨Ø§ Ù…Ø±Ú©Ø² Ø§ÛŒØ±Ø§Ù† Ú©Ù‡ Ø´Ø§Ù‡Ù†Ø´Ø§Ù‡ÛŒ Ù‡Ø®Ø§Ù…Ù†Ø´ÛŒ Ø±ÙˆÛŒ Ø¢Ù† Ù…Ø´Ø®Øµ Ø§Ø³ØªØŒ Ø¨Ø§Ù„Ø§ÛŒ Ø®Ø· Ø²Ù…Ø§Ù†" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ø§ÛŒØ±Ø§Ù† Ø¯Ø± Ú¯Ø°Ø± Ø²Ù…Ø§Ù†" />
+    <meta name="twitter:description" content="Û²Û¸Û°Û° Ø³Ø§Ù„ Ù…Ø±Ø² Ø±ÙˆÛŒ ÛŒÚ© Ú©Ø±Ù‡. Ø®Ø· Ø²Ù…Ø§Ù† Ø±Ø§ Ø§Ø² Û¸Û´Û´ Ù¾ÛŒØ´ Ø§Ø² Ù…ÛŒÙ„Ø§Ø¯ ØªØ§ Ø§Ù…Ø±ÙˆØ² ÙˆØ±Ù‚ Ø¨Ø²Ù†ÛŒØ¯." />
+    <meta name="twitter:image" content="https://github.com/Farid-Madandar/iran-map-timelaps/og-image.jpg?v=2" />
+  </head>
+  <body>
+    <main class="stage">
+      <p class="mark" data-t="mark">Persia through time</p>
+      <div class="tools">
+        <button class="sources" type="button" data-t="sources">Sources</button>
+        <div class="lang">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" data-t-label="language">
+            <span class="flag" id="langFlag"></span>
+            <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu">
+            <button class="lang-item" type="button" data-lang="en" lang="en"><span class="flag"></span><span class="ln"></span></button>
+            <button class="lang-item" type="button" data-lang="fa" lang="fa"><span class="flag"></span><span class="ln"></span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="comp">
+        <div class="globe">
+          <canvas aria-hidden="true"></canvas>
+          <div class="shadow" aria-hidden="true"></div>
+        </div>
+
+        <div class="caption" aria-live="polite"></div>
+
+        <div class="ruler" role="slider" tabindex="0" aria-valuemin="0" data-t-label="timeline">
+          <div class="ticks" aria-hidden="true"></div>
+          <div class="ends" aria-hidden="true"><span></span><span></span></div>
+        </div>
+      </div>
+    </main>
+
+    <dialog aria-labelledby="sources-title">
+      <h2 id="sources-title" data-t="sources">Sources</h2>
+      <p data-t="sourcesIntro"></p>
+      <ul>
+        <li><strong data-t="bordersLabel"></strong><span data-t-html="bordersText"></span></li>
+        <li><strong data-t="parsuaLabel"></strong><span data-t="parsuaText"></span></li>
+      </ul>
+      <form method="dialog"><button data-t="close">Close</button></form>
+    </dialog>
+
+    <footer class="sig" dir="ltr">
+      <a class="start" href="https://github.com/Farid-Madandar/iran-map-timelaps" target="_blank" rel="noopener">&copy; 2026 <strong>Farid Madandar</strong></a>
+      <span class="mid">Contact:&nbsp;<a href="https://t.me/Farid_Madandar" target="_blank" rel="noopener">@Farid_Madandar</a> · <a href="https://github.com/Farid-Madandar" target="_blank" rel="noopener">Farid-Madandar</a></span>
+      <span class="end">
+        <a href="https://github.com/Farid-Madandar/iran-map-timelaps" target="_blank" rel="noopener" aria-label="Source code on GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><strong>Source code</strong></a>
+        <span class="dot" aria-hidden="true">&middot;</span>
+        <a href="https://github.com/Farid-Madandar/iran-map-timelaps" target="_blank" rel="noopener" aria-label="Star this project on GitHub"><svg class="star-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.751.751 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg><strong>Star</strong><span class="star-count" hidden></span></a>
+      </span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
