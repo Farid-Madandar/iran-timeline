@@ -1,12 +1,12 @@
-# Persia through time
+# ایران در گذر زمان
 
 <p align="center">
-  <img src="docs/persia-through-time.gif" width="100%" alt="A white globe spins from stop to stop while Persia's borders change: Parsua in 844 BC, the Achaemenid Empire, Alexander, the Parthians, the Sasanians, the Safavids, and Iran today. A tick ruler under the globe marks the year.">
+  <img src="docs/persia-through-time.gif" width="100%" alt="یک گلوب تعاملی که نشان می‌دهد مرزهای ایران چگونه در ۲۸۰۰ سال گذشته تغییر کرده است.">
 </p>
 
-**Demo:** https://farid-madandar.github.io/iran-map-timelaps · **Repo:** https://github.com/Farid-Madandar/iran-map-timelaps
+**نمایش:** https://farid-madandar.github.io/iran-timeline · **ریپازیتوری:** https://github.com/Farid-Madandar/iran-timeline
 
-A small interactive globe that shows how the map of Persia (Iran) changed over 2,800 years, from the first written record of the Persians in 844 BC to Iran today. Move over the ruler, drag it, or use the arrow keys.
+یک گلوب تعاملی که نشان می‌دهد نقشهٔ ایران چگونه در ۲۸۰۰ سال گذشته تغییر کرده است، از نخستین ثبت نوشتاری پارسیان در ۸۴۴ ق.م تا ایران امروز. روی خط زعيم حرکت دهید، بکشید، یا از کلیدهای فلش استفاده کنید.
 
 ![The app in English: the Achaemenid Empire in 500 BC](docs/app-en.jpg)
 

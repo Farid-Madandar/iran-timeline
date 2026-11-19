@@ -1,14 +1,14 @@
 {
-  "name": "iran-map-timelaps",
+  "name": "iran-timeline",
   "private": true,
-  "version": "0.1.0",
-  "description": "A small interactive globe that shows how the map of Persia (Iran) changed over 2,800 years, from the first written record of the Persians in 844 BC to Iran today.",
+  "version": "1.0.0",
+  "description": "یک گلوب تعاملی که نشان می‌دهد نقشهٔ ایران چگونه در ۲۸۰۰ سال گذشته تغییر کرده است، از اولین ثبت نوشتاری پارسیان در ۸۴۴ ق.م تا ایران امروز.",
   "type": "module",
   "author": "Farid Madandar",
-  "homepage": "https://github.com/Farid-Madandar/iran-map-timelaps",
+  "homepage": "https://github.com/Farid-Madandar/iran-timeline",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Farid-Madandar/iran-map-timelaps.git"
+    "url": "https://github.com/Farid-Madandar/iran-timeline.git"
   },
   "scripts": {
     "dev": "vite",

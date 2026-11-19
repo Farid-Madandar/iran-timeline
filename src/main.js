@@ -133,7 +133,7 @@ start();
   const el = document.querySelector('.star-count');
   if (!el) return;
   try {
-    const res = await fetch('https://api.github.com/repos/Farid-Madandar/iran-map-timelaps');
+    const res = await fetch('https://api.github.com/repos/Farid-Madandar/iran-timeline');
     if (!res.ok) return;
     const { stargazers_count: n } = await res.json();
     if (typeof n !== 'number') return;
